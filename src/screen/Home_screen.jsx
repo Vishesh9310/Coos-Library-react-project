@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
     <Navbar/>
-    <SearchBar/>
+    {/* <SearchBar/> */}
     {/* <Section/> */}
     <Footer/>
     </>
