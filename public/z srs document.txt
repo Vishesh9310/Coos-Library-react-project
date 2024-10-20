@@ -1,0 +1,17 @@
+Include in website mini project:
+
+1. 5 categories of products.
+2. Online payment testing integreation
+3. Dummy account for payment
+
+
+react.js
+bootstrap
+api for data fetching or dbms for e-books
+5 categories(
+    1. science fiction
+    2. thriller
+    3. stories
+    4. religious
+    5. study
+)

@@ -1,0 +1,34 @@
+#outer_div {
+    background-color: #273248;
+    color: #bed8ee;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.anchor{
+    padding: 10px 20px;
+    color: #bed8ee;
+}
+
+.anchor:hover{
+    color: #bed8ee;
+    background-color: #3c4557;
+    border-radius: 20px;
+}
+
+#logo{
+    margin-left: 30px;
+}
+
+/*
+#outer_div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}*/
