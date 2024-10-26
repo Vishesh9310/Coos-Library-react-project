@@ -7,21 +7,21 @@ function Login() {
   return (
     <>
     <div id='box_l'>
-        <div class='section' id='gif'>
-            <img src="src/assets/istockphoto-849292906-612x612.jpg" alt="gif" />
+        <div className='flex justify-center item-center mx-1 my-0.5 w-3/4 px-3 h-full min-h-fit'>
+            <img className="h-full rounded-2xl" width="90%" src="src/assets/200.webp" alt="gif" />
         </div>
-        <div class='section' id='card'>
-            <form action="">
-                <div class="lite_color">
-                  <p>Log In</p>
+        <div className="w-1/4 bg-slate-700 h-fit p-2.5 rounded-xl hover:bg-gradient-to-br from-pink-600 to-blue-500 mx-5px my-2px">
+            <form className="p-5" action="">
+                <div>
+                  <p className="text-blue-200">Log In</p>
                 </div>
                 <br />
-                <div class="f_items m">
+                <div className="text-sm" class="f_items">
                   <label htmlFor="email">Email:</label>
                   <input className="text-black" class="input_v" type="email" id='email' name='email'/>
                 </div>
                 <br />
-                <div class="f_items m">
+                <div className="text-sm" class="f_items">
                   <label htmlFor="password">Password:</label>
                   <input className="text-black" class="input_v" type="password" id='password' name='password' />
                 </div>
@@ -36,7 +36,7 @@ function Login() {
                   </div>
                 </div>
                 <br />
-                <input type="submit" id='submit' class='submit_b' name='Submit' />
+                <input className="rounded-md bg-slate-600 w-full text-blue-200 p-1 hover:bg-slate-500 hover:text-white  "type="submit" id='submit' name='Submit' />
 
                 <p className="text-xs text-blue-200">or continued with</p>
 

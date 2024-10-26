@@ -8,7 +8,7 @@ function SearchBar() {
     <div id='box'>
         <div id='search_bar'>
             <input id='search_w' type="text" placeholder='Search here...' autofocus='' />
-            <img id='search_l' src="src/assets/download.png" alt="Search" />
+            <img id='search_l' className="bg-none bg p-1" src="src/assets/serach2.jpg" alt="Search" />
         </div>
     </div>
     </>

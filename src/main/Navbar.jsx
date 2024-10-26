@@ -1,30 +1,20 @@
 'use client'
 import React from 'react'
-import './Navbar.css'
 
 function Navbar() {
   return (
     <>
-    <div id='outer_div'>
-        <img id='logo' height="40px" width="40px" src="src/assets/download.png" alt="COOS-Library" />
-        
-        <div id='links'>
-        <a class='anchor' href="#">Home</a>
-        <a class='anchor' href="#">Free Books</a>
-        <a class='anchor' href="#">Categories</a>
-        <a class='anchor' href="#">Sign up/Log In</a>
-        <a class='anchor' href="#">Create an Account</a>
-        <a class='anchor' href="#">Help</a>
+    <div className='bg-slate-600 py-20px px-40px text-blue-200 hover:text-blue-50 flex justify-between'>
+        <img id='logo' height="40px" width="40px" src="src/assets/logo.webp" alt="COOS-Library" />
+
+        <div className='mx-5 flex justify-between'>
+        <a className='px-3 py-3 hover:rounded-3xl hover:bg-gradient-to-r from-blue-500 to-blue-300' href="#">Home</a>
+        <a className='px-3 py-3 hover:rounded-3xl hover:bg-gradient-to-r from-green-500 to-green-300' href="#">Free Books</a>
+        <a className='px-3 py-3 hover:rounded-3xl hover:bg-gradient-to-r from-pink-500 to-pink-300' href="#">Categories</a>
+        <a className='px-3 py-3 hover:rounded-3xl hover:bg-gradient-to-r from-yellow-500 to-yellow-300' href="#">Sign up/Log In</a>
+        <a className='px-3 py-3 hover:rounded-3xl hover:bg-gradient-to-r from-purple-500 to-purple-300' href="#">Create an Account</a>
+        <a className='px-3 py-3 hover:rounded-3xl hover:bg-gradient-to-r from-orange-500 to-orange-300' href="#">Help</a>
         </div>
-        {/*<ul>
-            <li><img height="40px" width="40px" src="src/assets/download.png" alt="COOS-Library" /></li>
-            <li>Home</li>
-            <li>Free Books</li>
-            <li>Categories</li>
-            <li>Sign In / Log In</li>
-            <li>Create an Account</li>
-            <li>Help</li>
-          </ul>*/}
     </div>
     </>
   )

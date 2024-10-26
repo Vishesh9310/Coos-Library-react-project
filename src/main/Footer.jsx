@@ -9,7 +9,7 @@ function Footer() {
     <div id='footer-box'>
         <div class='footer_cols' id='first_col'>
             <ul class='cols'>
-            <li><img src="logo.jpg" alt="Coos-Library"/></li>
+            <li>Coos Library</li>
             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente aspernatur quis possimus,</li>
             <li>
                 <div>Connect with us at</div>

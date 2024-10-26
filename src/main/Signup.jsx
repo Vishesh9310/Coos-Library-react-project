@@ -5,34 +5,35 @@ function Signup() {
   return (
     <>
     <div id='box_l'>
-        <div class='section' id='gif'>
-            <img src="src/assets/istockphoto-849292906-612x612.jpg" alt="gif" />
+        <div className='flex justify-center item-center mx-1 my-0.5 w-3/4 px-3 h-full min-h-fit'>
+            <img className="h-full rounded-2xl" width="90%" src="src/assets/giphy (5).webp" alt="gif" />
         </div>
-        <div class='section' id='card'>
-            <form action="">
-                <div className="text-blue-200">
-                  <p>Sign Up</p>
+        <div className="w-1/4 bg-slate-700 h-fit p-2.5 rounded-xl hover:bg-gradient-to-br from-pink-600 to-blue-500 mx-5px my-2px">
+            <form className="p-5" action="">
+                <div>
+                  <p className="text-blue-200">Sign Up</p>
                 </div>
                 <br />
-                <div class="f_items m">
+                <div className="text-sm" class="f_items">
                   <label htmlFor="name">Name:</label>
-                  <input class="input_v" type="text" id='name' name='name'/>
+                  <input className="text-black" class="input_v" type="email" id='name' name='name'/>
                 </div>
                 <br />
-                <div class="f_items m">
+                <div className="text-sm" class="f_items">
                   <label htmlFor="email">Email:</label>
-                  <input class="input_v" type="email" id='email' name='email'/>
+                  <input className="text-black" class="input_v" type="email" id='email' name='email'/>
                 </div>
                 <br />
-                <div class="f_items m">
+                <div className="text-sm" class="f_items">
                   <label htmlFor="password">Password:</label>
-                  <input class="input_v" type="password" id='password' name='password' />
+                  <input className="text-black" class="input_v" type="password" id='password' name='password' />
                 </div>
                 <br />
-                <div class="f_items m">
-                  <label htmlFor="c_pwd">Confirm Password:</label>
-                  <input class="input_v" type="password" id='c_pwd' name='c_pwd'/>
+                <div className="text-sm" class="f_items">
+                  <label htmlFor="c_password">Confirm Password:</label>
+                  <input className="text-black" class="input_v" type="password" id='c_password' name='c_password' />
                 </div>
+                <br />
                 <div id='bottom_login'>
                   <div>
                     <input type="checkbox" id='show_pwd' name='show_pwd'/>
@@ -40,7 +41,7 @@ function Signup() {
                   </div>
                 </div>
                 <br />
-                <input type="submit" id='submit' class='submit_b' name='Submit' />
+                <input className="rounded-md bg-slate-600 w-full text-blue-200 p-1 hover:bg-slate-500 hover:text-white  "type="submit" id='submit' name='Submit' />
 
                 <p className="text-xs text-blue-200">or continued with</p>
 
@@ -49,10 +50,12 @@ function Signup() {
                 <a class='an' className="p-0.5 text-center text-blue-200 rounded-2xl min-w-7 hover:min-w-7 max-w-7 min-h-7 max-h-7 hover:bg-blue-500 hover:text-white" href="">Fa</a>
                 </div>
                 <p className="text-blue-200 text-xs">Already have an account? <a class="links_color" href="#">Log In</a></p>
+            
+                
             </form>
         </div>
     </div>
-    </>
+   </>
   )
 }
 
