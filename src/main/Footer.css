@@ -1,14 +1,15 @@
 #footer-box{
-    background-color: #273248;
     color: #bed8ee;
     display: flex;
     justify-content: space-evenly;
     padding: 30px 10px;
+    margin: 0%;
 }
 
 .footer_cols{
     width: 20%;
     padding:10px;
+    background-color: none;
 }
 
 #first_col{
@@ -26,22 +27,9 @@ ul li{
 }
 
 .cols li:nth-child(1){
-    color: #bed8ee;
     font-size: 20px;
-    border-bottom: 1px solid #bed8ee;
+    border-bottom: 1px solid;
     margin-bottom: 14px;
     padding-bottom: 0px;
     text-align: center;
-}
-
-.cpyright{
-    background-color: #273248;
-}
-
-#in_cpy{
-    padding: 10px;
-    color: #bed8ee;
-    margin: 0px auto;
-    width: fit-content;
-    font-size: 12px;
 }

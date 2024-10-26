@@ -1,12 +1,11 @@
 'use client'
 import React from 'react'
-import './Section.css'
 import BookCard from './BookCard'
 
 function Section() {
   return (
     <>
-    <div id='main_div_section'>
+    <div className='grid grid-cols-1 md:grid-cols-6'>
     
     <BookCard/>
     <BookCard/>
@@ -16,7 +15,7 @@ function Section() {
     <BookCard/>
     <BookCard/>
     <BookCard/>
-    
+  
     </div>
     </>
   )

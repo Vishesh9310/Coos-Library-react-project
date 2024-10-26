@@ -16,9 +16,6 @@ api for data fetching or dbms for e-books
     5. study
 )
 
-
-
-
 screens:
 1. login
 2. signup

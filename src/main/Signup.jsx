@@ -8,7 +8,7 @@ function Signup() {
         <div className='flex justify-center item-center mx-1 my-0.5 w-3/4 px-3 h-full min-h-fit'>
             <img className="h-full rounded-2xl" width="90%" src="src/assets/giphy (5).webp" alt="gif" />
         </div>
-        <div className="w-1/4 bg-slate-700 h-fit p-2.5 rounded-xl hover:bg-gradient-to-br from-pink-600 to-blue-500 mx-5px my-2px">
+        <div className="w-1/4 border-2 border-pink-600 h-fit p-2.5 rounded-xl hover:bg-gradient-to-br from-pink-600 to-blue-500 mx-5px my-2px">
             <form className="p-5" action="">
                 <div>
                   <p className="text-blue-200">Sign Up</p>

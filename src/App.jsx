@@ -12,7 +12,15 @@ function App() {
   return (
     <>
     <Home_screen/>
+    <br />
+    <br />
+    <br />
+    <br />
     <Login_screen/>
+    <br />
+    <br />
+    <br />
+    <br />
     <Signup_screen/>
     </>
   )
