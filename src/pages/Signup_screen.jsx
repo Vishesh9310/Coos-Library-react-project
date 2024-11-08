@@ -1,18 +1,18 @@
-"use client"
 import React from 'react'
 import Navbar from '../main/Navbar'
-import Login from '../main/Login'
+import Signup from '../main/Signup'
 import Footer from '../main/Footer'
+import Skip from '../main/Skip'
 
-
-function Login_screen() {
+function Signup_screen() {
   return (
     <>
     <Navbar/>
-    <Login/>
+    <Skip/>
+    <Signup/>
     <Footer/>
     </>
   )
 }
 
-export default Login_screen
+export default Signup_screen

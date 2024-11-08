@@ -5,7 +5,7 @@ function copyright() {
   return (
     <>
     <div className='bg-neutral-200'>
-        <div className='p-2.5 mx-auto my-0 w-fit text-sm'>
+        <div className='p-2.5 mx-auto my-0 w-fit text-sm bg-neutral-200'>
         Copyright ©Coos-Library 2021-2028
         </div>
     </div>

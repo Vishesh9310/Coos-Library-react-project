@@ -6,6 +6,7 @@ import Copyright from './copyright'
 function Footer() {
   return (
     <>
+
     <div id='footer-box' className='bg-neutral-200'>
         <div class='footer_cols' id='first_col'>
             <ul class='cols'>

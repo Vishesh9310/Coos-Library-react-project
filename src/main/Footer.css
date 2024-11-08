@@ -1,15 +1,13 @@
 #footer-box{
-    color: #bed8ee;
     display: flex;
     justify-content: space-evenly;
-    padding: 30px 10px;
+    /* padding: 30px 10px; */
     margin: 0%;
 }
 
 .footer_cols{
     width: 20%;
     padding:10px;
-    background-color: none;
 }
 
 #first_col{
