@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
-import './Footer.css'
-import Copyright from './copyright'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -26,11 +25,11 @@ function Footer() {
         <div class='footer_cols'>
             <ul class='cols'>
             <li>Categories</li>
-            <li><a className=' hover:text-blue-400' href="">Science Fiction</a></li>
-            <li><a className=' hover:text-blue-400' href="">Thriller</a></li>
-            <li><a className=' hover:text-blue-400' href="">Stories</a></li>
-            <li><a className=' hover:text-blue-400' href="">Religious</a></li>
-            <li><a className=' hover:text-blue-400' href="">Study</a></li>
+            <li><Link className=' hover:text-blue-400' to="">Science Fiction</Link></li>
+            <li><Link className=' hover:text-blue-400' to="">Thriller</Link></li>
+            <li><Link className=' hover:text-blue-400' to="">Stories</Link></li>
+            <li><Link className=' hover:text-blue-400' to="">Religious</Link></li>
+            <li><Link className=' hover:text-blue-400' to="">Study</Link></li>
         </ul>
         </div>
         <div class='footer_cols'>
@@ -50,7 +49,11 @@ function Footer() {
         </ul>
         </div>
     </div>
-    <Copyright/>
+    <div className='bg-neutral-200'>
+        <div className='p-2.5 mx-auto my-0 w-fit text-sm bg-neutral-200'>
+        Copyright ©Coos-Library 2021-2028
+        </div>
+    </div>
     </>
   )
 }

@@ -1,18 +1,17 @@
 import React from 'react'
 import Navbar from '../main/Navbar'
-import Signup from '../main/Signup'
 import Footer from '../main/Footer'
-import Skip from '../main/Skip'
 
-function Signup_screen() {
+function Categories() {
   return (
     <>
     <Navbar/>
-    <Skip/>
-    <Signup/>
+    <div className='h-96 bg-pink-500'>
+      Categories
+    </div>
     <Footer/>
     </>
   )
 }
 
-export default Signup_screen
+export default Categories

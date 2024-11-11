@@ -17,7 +17,7 @@ function BookCard(props) {
         <div className='bg-none'>
 
           <div  className='h-32 h-min-28 w-min-28 flex content center bg-none'>
-          <img src={props.book.img} alt=" no load" className='h-full w-full'/>
+          <img src={image} alt=" no load" className='h-full w-full'/>
           </div>
 
           <div className='h-16 mt-2.5 items-baseline'>

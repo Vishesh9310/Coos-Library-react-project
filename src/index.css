@@ -5,3 +5,39 @@
 *{
     color:rgb(95, 93, 93);
 }
+
+/* footer css */
+
+#footer-box{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 30px 10px; */
+    margin: 0%;
+}
+
+.footer_cols{
+    width: 20%;
+    padding:10px;
+}
+
+#first_col{
+    width: 40%;
+}
+
+ul li{
+    list-style: none;
+}
+
+#images{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.cols li:nth-child(1){
+    font-size: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 14px;
+    padding-bottom: 0px;
+    text-align: center;
+}
